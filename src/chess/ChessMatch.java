@@ -137,6 +137,7 @@ public class ChessMatch {
 			board.placePiece(rook, sourceT);
 			rook.decreaseMoveCount();
 		}
+		// so pra commitar essa merda
 		
 		// #specialmove castling queenside rook
 		if(p instanceof King && target.getColumn() == source.getColumn() - 2) {
